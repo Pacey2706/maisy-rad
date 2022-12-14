@@ -26,7 +26,38 @@ h1, h2{
 
 #logo{
     float: left;
+    font-size: 250%;
+}
+
+#menu, #logo{
+    line-height: 75px;
+}
+
+/* Navigation */
+
+#menu{
+    float: right;
+    text-transform: uppercase;
+    list-style: none;
     font-size: 150%;
 }
 
-/* Header */
+#menu li{
+    display: inline;
+    margin-right: 20PX;
+    
+}
+
+#menu a{
+    color: inherit;
+}
+
+/*copied from love running project*/
+
+.active{
+    border-bottom: 1px solid #3a3a3a; 
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
