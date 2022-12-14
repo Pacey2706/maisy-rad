@@ -1,3 +1,32 @@
-body{
-    background-color: brown;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+body{
+    background-color: lightblue;
+    color: #3a3a3a;
+    font-weight: 300;
+    font-family: Open Sans, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* logo and headings */
+h1, h2{
+    font-family: lobster, sans-serif;
+    color: #252525;
+    letter-spacing: 3px;
+}
+
+#logo{
+    float: left;
+    font-size: 150%;
+}
+
+/* Header */
