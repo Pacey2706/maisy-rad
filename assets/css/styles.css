@@ -17,6 +17,15 @@ a{
     text-decoration: none;
 }
 
+#leading-background{
+    width: 100%;
+    height: 475px;
+    background: url("../images/hero-imagemr.png") no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
 /* logo and headings */
 h1, h2{
     font-family: lobster, sans-serif;
